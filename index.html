@@ -3,15 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Play Shop</title>
     <link rel="stylesheet" href="css/main.css" />
     <script src="js/main.js"></script>
   </head>
   <body>
+    <div class="notic-modal">
+      <h1>NOTIC</h1>
+      <ul class="modal-text">
+        <li class="notic-1">
+          <h1>고객센터</h1>
+          <h3>운영시간 : 오전 10:00 ~ 오후 18:00</h3>
+          <h3>전화번호 : 02-0000-0000</h3>
+          <a href="#"><button>고객센터바로가기</button></a>
+        </li>
+        <li class="notic-2">
+          <h1>A/S 안내</h1>
+          <h3>택배 이용</h3>
+          <p>택배를 이용한 A/S이용은 택배비가 별도 부과되며, 약 1-2주의 기간이 걸립니다.</p>
+          <h3>매장이용</h3>
+          <p>매장을 통한 A/S는 전매장 방문 후 이용 가능하며, A/S기간은 매장에 문의하시기 바랍니다.</p>
+          <a href="#"><button>A/S 안내 바로가기</button></a>
+        </li>
+        <li class="notic-3">
+          <h1>반품/환불규정</h1>
+          <p>반품/ 환불은 제품 구매 후 7일 이내에 가능하며, 제품 훼손 시 환불이 불가 할 수 있습니다.</p>
+          <a href="#"><button>반품/환불 규정 바로가기</button></a>
+        </li>
+      </ul>
+      <button class="modal button">x</button>
+    </div>
     <div class="warp">
-      <div class="header header1">
-        <!-- 검정상단 -->
+      <div class="fixed-button">
+        
       </div>
+      <header class="header">
+        <div class="header1">
+          <h1 class="logo">PLAY SHOP</h1>
+          <ul class="header-menu">
+            <li><a href="#">Introduce</a></li>
+            <li><a href="#">Online Shop</a></li>
+            <li><a href="#">Offinke Shop</a></li>
+          </ul>
+          <div class="header-button">
+            <a href="#"><button>Log-in</button></a>
+            <a href="#"><button>Join</button></a>
+          </div>
+        </div>
+        <div class="header2"></div>
+      </header>
       <div class="container">
         <div class="notic"></div>
         <!-- 배너 -->
@@ -22,9 +69,8 @@
       </div>
       <footer class="footer">
         <div class="footer1"></div>
-        <div class=""></div>footer2
+        <div class="footer2"></div>
       </footer>
-      </div>
     </div>
   </body>
 </html>

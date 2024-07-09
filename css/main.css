@@ -6,7 +6,105 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+}
 ul,
 li {
   list-style: none;
 }
+.warp {
+  width: 100%;
+  text-align: center;
+}
+/* 모달창 */
+.notic-modal {
+  position: relative;
+  /* display: none; */
+  text-align: center;
+  width: 100%;
+  background-color: #ccc;
+  z-index: 99999;
+}
+
+.notic-modal h1 {
+  line-height: 100px;
+}
+.modal-text {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.modal-text li {
+  width: calc(100% / 3);
+}
+
+.modal-text h1 {
+  background-color: #fff;
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+.modal-text h3{font-size: 20px;}
+
+/* 헤더 */
+.header {
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.header1 {
+  background-color: black;
+  height: 70px;
+  color: #fff;
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  width: 20%;
+  margin: auto 0;
+  font-size: 31px;
+}
+
+.header-menu {
+  width: 50%;
+  display: flex;
+
+  margin: auto;
+}
+.header-menu a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-menu li {
+  width: calc(100% / 3);
+}
+
+.header-button {
+  width: 15%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+.header-button > a {
+  width: calc(100% / 2);
+  background-color: #fff;
+  width: 100%;
+  gap: 20;
+  font-size: 20px;
+  color: aqua;
+}
+
+.header-button button {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  border: #fff;
+  padding: 10px;
+}
+.header-button > button;

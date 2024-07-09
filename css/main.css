@@ -124,3 +124,14 @@ li {
   border-radius: 20%;
 }
 /* 배너 */
+.banner {
+  background-color: #ccc;
+  width: 100%;
+  display: flex;
+}
+
+.swiper{width: 40%;}
+
+.swiper-slide img{width: 100%;}
+
+.title{width: 60%;}

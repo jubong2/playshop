@@ -3,6 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 메타태그 -->
+    <meta name="description" content="모던 시크 여성 전문 쇼핑몰 플레이샵입니다." />
+    <meta name="keywords" content="운동복.여성쇼핑몰" />
+    <meta property="og:title" content="플레이샵" />
+    <meta property="og:description" content="항운동복.여성쇼핑몰" />
+    <meta property="og:image" content="http://127.0.0.1:5501/images/slider-2.jpg" />
+    <meta property="og:url" content="https://www.playshop.com" />
+    <meta property="og:site_name" content="플레이샵" />
+    <meta property="og:type" content="website" />
+    <!-- 바콘 -->
     <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
@@ -11,8 +21,12 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
     <title>Play Shop</title>
+    <!-- css연결 -->
     <link rel="stylesheet" href="css/main.css" />
+    <!-- js 연결 -->
+    <script src="js/jquery-1.12.3.js"></script>
     <script src="js/main.js"></script>
+
     <!-- 스와이프 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -21,34 +35,40 @@
     <div class="modal">
       <div class="modal-wrap">
         <h1>Notic</h1>
-        <div class="modal-content ">
+        <div class="modal-content">
           <div class="modal-center">
             <h2>고객센터</h2>
-            <ul>
-              <ul>
-                <li>
-                  <h3>상담시간</h3>
-                  <p>오전 09:00-오후18:00</p>
-                </li>
-                <li>
-                  <h3>전화번호</h3>
-                  <p>02-0000-0000</p>
-                </li>
-              </ul>
-              <button><a href="#">고객센터 바로가기</a></button>
-            </ul>
+            <h3>상담시간</h3>
+            <p>오전 09:00-오후18:00</p>
+            <h3>전화번호</h3>
+            <p>02-0000-0000</p>
+            <button><a href="#">고객센터 바로가기</a></button>
           </div>
+
           <div class="modal-as">
             <h2>A/S</h2>
+            <h3>매장이용</h3>
+            <p>전 매장 A/S 문의 가능하며, 기간은 매장에 따라 차이가 있으니 매장으로 문의바랍니다.</p>
+            <h3>택배이용</h3>
+            <p>택배를 이용한 A/S 진행 시 택배비가 발생하며 약 1~2주의 기간이 소요됩니다.</p>
+            <button><a href="#">A/S 바로가기</a></button>
           </div>
           <div class="modal-change">
             <h2>교환/환불</h2>
+            <h3>교환안내</h3>
+            <p>
+              교환은 7일 이내에만 가능하며,<br />
+              구매 내역이 확인되는 영수증을 동봉하셔야합니다.
+            </p>
+            <button><a href="#">A/S 바로가기</a></button>
           </div>
         </div>
+        <button class="close-button">X</button>
       </div>
     </div>
     <div class="warp">
       <header class="header">
+        <!-- 헤더상단 -->
         <div class="header1">
           <h1 class="logo">PLAY SHOP</h1>
           <ul class="header-menu">
@@ -61,6 +81,7 @@
             <a href="#"><button>Join</button></a>
           </div>
         </div>
+        <!-- 헤더하단 -->
         <div class="header2 container">
           <div class="notic">
             <h1>Notic(Click)</h1>
@@ -78,7 +99,8 @@
         </div>
       </header>
       <!-- 배너 -->
-      <div class="banner container">
+      <div class="banner">
+        <!-- 배너 슬라이더 -->
         <div class="swiper bannerSwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="images/slider-1.jpg" alt="1" /></div>
@@ -86,11 +108,19 @@
             <div class="swiper-slide"><img src="images/slider 3.jpg" alt="3" /></div>
           </div>
         </div>
-        <div class="title">
-          <h1>PLAY</h1>
-          <h1>SHOP</h1>
-          <button>온라인샵 구경하기 ▶</button>
-          <button>오프라인샵 구경하기 ▶</button>
+        <!-- 회색 배너 배경 -->
+         <div class="gray-bg"></div>
+        <!-- 베너 text -->
+        <div class="banner-text">
+          <div class="banner-logo">
+            <h1 class="paly">PLAY</h1>
+            <h1 class="shop">SHOP</h1>
+          </div>
+          <div class="shopping">
+            <button><a href="#">온라인샵 구경하기 ▶</a></button>
+            <button><a href="#">오프라인샵 구경하기 ▶</a></button>
+          </div>
+          <input type="text" class="search" placeholder="검색하세요" />
         </div>
       </div>
 

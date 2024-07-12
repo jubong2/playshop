@@ -276,7 +276,15 @@ li {
 .paly,
 .Shop {
   display: inline-block;
-  font-size: 200px;
+  font-size: 150px;
+}
+
+.paly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #9c0808;
+  padding-top: 100px;
 }
 
 /*  */

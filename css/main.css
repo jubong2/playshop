@@ -20,9 +20,12 @@ li {
 }
 
 .container {
+  display: block;
   max-width: 80%;
   margin: 0 auto;
+  background-color: #a34f4f;
 }
+*
 /* 모달창 */
 .modal .notic {
   display: block;
@@ -32,7 +35,7 @@ li {
   display: none;
   width: 80%;
   height: 100%;
-  background-color: #a34f4f;
+  /* background-color: #a34f4f; */
   text-align: center;
   position: absolute;
   top: 70px;
@@ -213,85 +216,84 @@ li {
   height: 50px;
   border-radius: 20%;
 }
-/* 배너 */
-.banner {
-  width: 100%;
+
+/* 배너 섹션 */
+.bannersection {
   display: flex;
+  width: 100%;
+  /* height: 500px;
+  overflow: hidden; */
 }
-/* 슬라이더 */
-.swiper {
-  width: 50%;
+
+.slider-warp {
+  width: 40%;
+}
+
+.bannerSwiper {
+  width: 100%;
 }
 
 .swiper-slide img {
   width: 100%;
 }
-/* 회색 배너  */
-.gray-bg {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 50%;
-  height: 100%;
+/* 배너 오른쪽  */
+.text-warp {
+  position: relative;
+  width: 60%;
   background-color: #333;
 }
 
-/* 배너 글자 */
-.banner-text {
+.text-righ {
   position: relative;
-  background-color: #ccc;
-  width: 50%;
 }
-
-.banner-logo {
-  position: relative;
-  width: 80%;
-  height: 70%;
-  margin: 0 auto;
-  /* background-color: rgb(71, 51, 24); */
-  font-size: 100px;
-}
-
-.paly {
-  position: absolute;
-  top: 50px;
-  left: 0;
-}
-
-.shop {
-  position: absolute;
-  bottom: 50px;
-  left: 125px;
-}
-
-.shopping {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-.shopping button {
-  width: 70%;
-
-  display: block;
-  background-color: #333;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  padding: 20px;
-  border-radius: 70px;
-}
-
-.shopping button a {
-  color: #fff;
-  font-size: 40px;
-}
-
+/* 검색창 */
 .search {
-  z-index: 99999999;
-  width: 250px;
-  height: 50px;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 5%;
+  right: 17%;
+  display: inline-block;
+  width: 20%;
+  line-height: 50px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.search input {
+  width: 80%;
+  line-height: 52px;
+  border: #fff;
+}
+
+.serch-input::placeholder {
+  text-align: center;
+  color: #333;
+  font-size: 20px;
+}
+.shopping-mall p {
+  color: #333;
+}
+
+.paly,
+.Shop {
+  display: inline-block;
+  font-size: 200px;
+}
+
+/*  */
+/* 섹션1 */
+
+.section1 {
+  margin-top: 100px;
+  width: 100%;
+  background-color: rgb(223, 223, 17);
+  display: flex;
+}
+.concept {
+  width: 40%;
+  background-color: antiquewhite;
+}
+
+.kind {
+  background-color: aquamarine;
+  width: 60%;
 }

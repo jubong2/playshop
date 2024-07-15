@@ -23,7 +23,6 @@ li {
   display: block;
   max-width: 80%;
   margin: 0 auto;
-  background-color: #a34f4f;
 }
 *
 /* 모달창 */
@@ -249,59 +248,341 @@ li {
 /* 검색창 */
 .search {
   position: absolute;
-  top: 5%;
+  top: 3%;
   right: 17%;
   display: inline-block;
   width: 20%;
-  line-height: 50px;
+  line-height: 30px;
   background-color: #fff;
   border-radius: 50px;
 }
 
 .search input {
-  width: 80%;
-  line-height: 52px;
+  width: 60%;
+  line-height: 32px;
   border: #fff;
 }
 
 .serch-input::placeholder {
   text-align: center;
+  margin: auto;
   color: #333;
-  font-size: 20px;
+  font-size: 15px;
 }
 .shopping-mall p {
   color: #333;
 }
+/* 배너 글자 */
 
 .paly,
 .Shop {
-  display: inline-block;
-  font-size: 150px;
+  font-size: 200px;
+  text-shadow: 5px 5px 0 rgb(130, 126, 126);
 }
 
 .paly {
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #9c0808;
-  padding-top: 100px;
+  top: 100px;
+  left: 200px;
 }
 
-/*  */
+.Shop {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+/* 쇼핑몰 바로가기 */
+.shopping-mall {
+  position: absolute;
+  bottom: 50px;
+  left: 150px;
+}
+.shopping-mall button {
+  padding: 5px 20px;
+  width: 60%;
+  line-height: 50px;
+  border-radius: 60px;
+  margin-bottom: 50px;
+}
+.shopping-mall button a {
+  font-size: 30px;
+  font-weight: bolder;
+}
 /* 섹션1 */
 
 .section1 {
   margin-top: 100px;
   width: 100%;
-  background-color: rgb(223, 223, 17);
+
   display: flex;
 }
+/* concep */
 .concept {
-  width: 40%;
-  background-color: antiquewhite;
+  padding-right: 10px;
+  width: 50%;
+  border-right: 1px solid #333;
+}
+
+.concept span {
+  color: rgb(184, 61, 163);
+}
+.concept h2 {
+  text-shadow: 0 4px 4px #333;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.concept p {
+  text-shadow: 0 4px 4px #807f7f;
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.concept b {
+  font-size: 30px;
+}
+/* 종류 */
+.concept2 {
+  padding-left: 20px;
+  margin: auto 0;
+  width: 60%;
+  text-align: left;
+  text-shadow: 0 4px 4px #807f7f;
 }
 
 .kind {
-  background-color: aquamarine;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kind h1 {
+  width: 30%;
+  text-shadow: 0 4px 4px #807f7f;
+  font-size: 40px;
+}
+.kind p {
+  width: 70%;
+  padding-left: 10px;
+  font-size: 25px;
+  text-shadow: 0 4px 4px #807f7f;
+}
+
+.kind span {
+  color: rgb(184, 61, 163);
+  border-bottom: 1px solid rgb(184, 61, 163);
+}
+
+/* 스포츠 에디션 */
+
+.soprts-edition {
+  background-color: yellow;
+  margin-top: 100px;
+  line-height: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.slider {
+  position: relative;
+}
+.product-name {
+  font-size: 100px;
+  margin: 100px 0;
+}
+
+.productprice {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.productbutton button {
+  background-color: #333;
   width: 60%;
+  border-radius: 50px;
+  line-height: 70px;
+  color: #333;
+}
+
+.productbutton button a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 30px;
+}
+/* 호버 */
+/* 호버공통 */
+
+.img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.color {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.slider:hover .img-hover {
+  display: block;
+}
+/*  */
+.color1:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+}
+.color2:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(242, 48, 0);
+}
+.color3:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(32, 32, 32);
+}
+
+.section2 {
+  margin-bottom: 100px;
+}
+:root {
+  --swiper-theme-color: #515150;
+}
+
+.swiper-pagination-bullet {
+  margin-top: 100px;
+  width: 20px;
+  height: 20px;
+}
+
+.section3 {
+  display: flex;
+  width: 100%;
+}
+
+.promotion {
+  padding: 50px 0;
+  float: right;
+  width: 50%;
+
+  background-color: violet;
+}
+
+.promotiontext {
+  width: 60%;
+  display: flex;
+  background-color: rgb(255, 255, 255, 0.5);
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px auto;
+  border-radius: 40px;
+}
+
+.summerpromotion h1 {
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.summerpromotion h2 {
+  font-size: 30px;
+}
+
+.summerpromotion h2 span {
+  font-size: 50px;
+  margin-top: 20px;
+}
+.infor {
+  margin-top: 20px;
+}
+.summerpromotion h3 {
+  margin-bottom: 50px;
+}
+
+.coupon {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  color: violet;
+  border: none;
+}
+.coupon button {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  color: violet;
+  border: none;
+}
+
+.coupon a {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+/* 크리에이타 */
+
+.creatorsecrtion {
+  width: 50%;
+  padding: 50px 0;
+  background-color: #333;
+}
+
+.creator h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.creator-infor {
+  width: 60%;
+  line-height: 80px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.creator-infor::placeholder {
+  font-size: 40px;
+}
+.creator button {
+  padding: 5px 20px;
+  width: 30%;
+  line-height: 50px;
+  border-radius: 60px;
+  margin-bottom: 50px;
+}
+.creator button a {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #333;
+}
+/* 하단 */
+.footer {
+  width: 100%;
+}
+.footer1 {
+  text-align: center;
+  display: flex;
+}
+.footer-logo {
+  width: 100px;
+  background-color: black;
+  font-weight: bold;
+  color: #fff;
+}
+.footer2 {
+  background-color: #333;
 }

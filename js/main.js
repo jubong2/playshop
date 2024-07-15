@@ -18,6 +18,14 @@ window.onload = function () {
     },
     loop: true,
   });
+  var produsceSwiper = new Swiper(".productSwiper", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
 };
 // 제이쿼리
 $(document).ready(function () {
@@ -28,4 +36,3 @@ $(document).ready(function () {
     $(".modal").removeClass("notic");
   });
 });
-

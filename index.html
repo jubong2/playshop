@@ -93,7 +93,9 @@
         <!-- 헤더하단 -->
         <div class="header2">
           <div class="notic">
-            <h1 class="noticClick">Notic(Click)</h1>
+            <div class="noticClick">
+              <h1 class="noticClick">Notic(Click)</h1>
+            </div>
           </div>
           <div class="sns">
             <ul>
@@ -108,40 +110,61 @@
         </div>
       </header>
       <!-- 배너 -->
-      <div class="bannersection">
-        <div class="slider-warp">
-          <div class="swiper bannerSwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="images/slider1.jpg" alt="1" />
+      <div class="banner">
+        <div class="bannersection">
+          <div class="slider-warp">
+            <div class="swiper bannerSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images/slider1.jpg" alt="1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/slider2.jpg" alt="2" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/slider3.jpg" alt="3" />
+                </div>
               </div>
-              <div class="swiper-slide">
-                <img src="images/slider2.jpg" alt="2" />
+            </div>
+            <div class="mb-slide-text">
+              <div class="mb-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="mb-serch-input" placeholder="검색하세요" />
               </div>
-              <div class="swiper-slide">
-                <img src="images/slider3.jpg" alt="3" />
+              <h1>PLAYSHOP</h1>
+              <div class="mb-banner-button">
+                <button class="online">
+                  <a href="#"><p>온라인샵 바로가기 ▶</p></a>
+                </button>
+                <button class="offline">
+                  <a href="#"><p>오프라인 바로가기 ▶</p></a>
+                </button>
               </div>
             </div>
           </div>
-        </div>
-        <div class="text-warp">
-          <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input type="text" class="serch-input" placeholder="검색하세요" /></div>
-          <div class="bannner-logo">
-            <h1>
-              PLAY <br />
-              &nbsp;&nbsp;&nbsp;Shop
-            </h1>
-          </div>
-          <div class="shopping-mall">
-            <button>
-              <a href="#"><p>온라인샵 바로가기 ▶</p></a>
-            </button>
-            <button>
-              <a href="#"><p>오프라인 바로가기 ▶</p></a>
-            </button>
+          <div class="text-warp">
+            <div class="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" class="serch-input" placeholder="검색하세요" />
+            </div>
+            <div class="bannner-logo">
+              <h1>
+                PLAY <br />
+                &nbsp;&nbsp;&nbsp;Shop
+              </h1>
+            </div>
+            <div class="shopping-mall">
+              <button class="online">
+                <a href="#"><p>온라인샵 바로가기 ▶</p></a>
+              </button>
+              <button class="offline">
+                <a href="#"><p>오프라인 바로가기 ▶</p></a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
+
       <!-- 브랜드소개 -->
       <section class="section1 container">
         <div class="playshop-infor">
@@ -168,10 +191,34 @@
             </div>
           </div>
         </div>
+        <!-- 모바일 컨셉2-->
+        <div class="mb-concept container">
+          <div class="swiper concept2-Swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide kind">
+                <h1>Clothing</h1>
+                <p>
+                  매년 유행에 맞는 디자인으로 업데이트 되는
+                  <span>의류 상품들은 직접 디자인하여 자체제작되어 자사 공장에서 만들어지는 의류 제품</span>으로 합리적인 가격으로 만나볼 수 있습니다.
+                </p>
+              </div>
+              <div class="swiper-slide kind">
+                <h1>Beauty</h1>
+                <p>제품 성분은 <span>피부에 자극이 없는 순한 성분</span>으로만 만들어진 제품으로 전 제품은 인증 과정을 철저하게 거친 후 제작됩니다.</p>
+              </div>
+              <div class="swiper-slide kind">
+                <h1>Accessory</h1>
+                <p>전 제품 <span>무알러러지 제품</span>으로 합리적인 가격으로 만나볼 수 있습니다.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next conceptNext"></div>
+          <div class="swiper-button-prev conceptPrev"></div>
+        </div>
       </section>
       <!-- 상품소개 -->
       <section class="section2">
-        <h2 class="soprts-edition">Sports Edition</h2>
+        <h2 class="sports-edition">Sports Edition</h2>
         <div class="swiper productSwiper container">
           <div class="swiper-wrapper">
             <div class="swiper-slide slider">

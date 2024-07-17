@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+  /* 헤더 */
+  .header1-button {
+    display: none !important;
+  }
+  .mobile-menu-bar {
+    font-size: 32px !important;
+  }
+
+  @media screen and (max-width: 400px) {
+  }
+
+  /* 배너- */
+  .slider-warp {
+    width: 100% !important;
+  }
+  .mb-slide-text {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .swiper-slide img {
+    height: 93.4vw !important;
+  }
+  .text-warp {
+    display: none !important;
+  }
+
+  /*  섹션 1 */
+  .section1 {
+    margin-top: 50px !important;
+  }
+
+  .concept {
+    width: 100% !important;
+    border-right: none !important;
+    border-bottom: 1px solid #333 !important;
+  }
+
+  .concept h2 {
+    font-size: 25px !important;
+  }
+
+  .concept b {
+    font-size: 20px !important;
+  }
+  .concept p,
+  .concept2 p {
+    font-size: 15px !important;
+  }
+  .concept2 {
+    display: none !important;
+  }
+
+}

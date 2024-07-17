@@ -17,6 +17,9 @@
     width: 23% !important;
     background-color: aqua;
   }
+  .search {
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 768px) {
   .header1-button {
@@ -25,18 +28,10 @@
   .logo {
     width: 50% !important;
   }
-  .header1 {
-    justify-content: center !important;
-  }
-}
-@media screen and (max-width: 600px) {
-  .header1-button {
-    display: none !important;
-  }
   .logo a {
     font-size: 25px !important;
   }
-  .mobile-menu-bar {
-    font-size: 32px !important;
+  .header1 {
+    justify-content: center !important;
   }
 }

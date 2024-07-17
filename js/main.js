@@ -26,6 +26,13 @@ window.onload = function () {
       clickable: true,
     },
   });
+
+  var swiper = new Swiper(".concept2-Swiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 };
 // 제이쿼리
 $(document).ready(function () {

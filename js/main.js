@@ -19,10 +19,10 @@ window.onload = function () {
     loop: true,
   });
   var produsceSwiper = new Swiper(".productSwiper", {
-    slidesPerView: 2,
+    slidesPerView: 3,
     spaceBetween: 30,
     pagination: {
-      el: ".swiper-pagination",
+      el: ".section2 .swiper-pagination",
       clickable: true,
     },
   });

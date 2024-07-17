@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url("main768.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,7 @@
 
 a {
   text-decoration: none;
-  color: antiquewhite;
+  color: #333;
 }
 ul,
 li {
@@ -24,7 +26,7 @@ li {
   max-width: 80%;
   margin: 0 auto;
 }
-*
+
 /* 모달창 */
 .modal .notic {
   display: block;
@@ -114,108 +116,122 @@ li {
   top: 10px;
 }
 /* 헤더 */
+/* 햄버거바 */
+
+/* .mobile-menu-bar {
+  display: none;
+}
 /* 헤더1 */
 .header1 {
+  position: relative;
   width: 100%;
-  background-color: black;
   height: 70px;
+  background-color: black;
   color: #fff;
   display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
+  align-items: center;
+  justify-content: space-between;
   z-index: 99;
+  position: fixed;
 }
-
+/* 햄버거바 */
+.mobile-menu-bar {
+  display: none;
+  font-size: 50px;
+  padding-left: 20px;
+}
+/* 로고 */
 .logo {
-  width: 30%;
-  margin: auto 0;
-  font-size: 31px;
-  min-width: 210px;
+  min-width: 200px;
+  text-align: center;
+  display: block;
+  width: 20%;
 }
 
-.header-menu {
-  text-align: center;
-  width: 40%;
-  display: flex;
-  margin: auto;
+.logo a {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 70px;
 }
-.header-menu a {
-  color: #ffffff;
-  font-size: 20px;
+/* 헤더1 메뉴 */
+.headre1-menu {
+  width: 40%;
+  font-size: 25px;
+}
+
+.headre1-menu ul {
+  width: 100%;
+  display: flex;
+}
+
+.headre1-menu li {
+  color: #fff;
+  margin: 0 auto;
   font-weight: bold;
 }
-
-.header-menu li {
-  width: calc(100% / 3);
-  /* padding-bottom: 10px ; */
+.headre1-menu li a {
+  color: #fff;
 }
-.header-menu li a {
-  padding-bottom: 5px;
-}
-.introduce {
+.Introduce {
   border-bottom: 2px solid #fff;
 }
-
-.header-menu li:hover a {
-  border-bottom: 2px solid #fff;
-}
-
-.header-button {
-  width: 15%;
-  margin: auto;
+/* 헤더 1 버튼 */
+.header1-button {
+  width: 20%;
+  height: 60%;
   display: flex;
-  gap: 20px;
+  min-width: 198px;
+  gap: 10px;
+  padding-right: 10px;
 }
-.header-button > a {
-  width: calc(100% / 2);
+
+.header1-button button {
   background-color: #fff;
   width: 100%;
-  gap: 20;
-  font-size: 20px;
-  color: aqua;
-}
-
-.header-button button {
-  width: 100%;
   font-size: 20px;
   font-weight: bold;
-  border: #fff;
-  padding: 10px;
-}
-/* 헤더 2 */
-.header2 {
-  padding-top: 70px;
-  width: 100%;
-  line-height: 100px;
-}
-.header2 h1 {
-  width: 100%;
-}
-.notic {
-  width: 100%;
-  display: flex;
-  align-items: center;
+  text-align: 70px;
+  padding: 10px 0;
 }
 
+/* 헤더 2 */
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+.notic {
+  align-items: center;
+  justify-content: center;
+}
+.noticClick {
+  font-size: 3vw;
+}
+/* sns */
+
+.sns {
+  width: 100px;
+}
 .sns ul {
-  background-color: aqua;
-  width: 150px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 .sns li {
-  width: calc(100% / 2);
-  height: 50px;
-  float: left;
+  width: calc(50%);
 }
 .sns img {
-  top: 0;
-  right: 0;
-  width: 50px;
-  height: 50px;
+  width: 100%;
   border-radius: 20%;
 }
-
 /* 배너 섹션 */
 .bannersection {
   display: flex;
@@ -226,35 +242,51 @@ li {
 
 .slider-warp {
   width: 40%;
+  height: 49.4vw;
+  background-color: aqua;
 }
 
 .bannerSwiper {
   width: 100%;
+  height: 100%;
 }
-
+.swiper-slide {
+  height: 49.4vw;
+}
 .swiper-slide img {
+  display: block;
   width: 100%;
+  height: 49.4vw;
+  object-fit: cover;
 }
 /* 배너 오른쪽  */
 .text-warp {
   position: relative;
   width: 60%;
+
+  height: 49.4vw;
   background-color: #333;
+  padding: 30px;
 }
 
-.text-righ {
-  position: relative;
-}
 /* 검색창 */
+
+.search-section {
+  position: relative;
+  width: 100%;
+  background-color: antiquewhite;
+}
 .search {
-  position: absolute;
-  top: 3%;
-  right: 17%;
-  display: inline-block;
+  /* position: absolute;
+  top: 10px;
+  right: 0; */
+  display: block;
   width: 20%;
+  min-width: 90px;
   line-height: 30px;
   background-color: #fff;
   border-radius: 50px;
+  margin-left: auto;
 }
 
 .search input {
@@ -267,53 +299,53 @@ li {
   text-align: center;
   margin: auto;
   color: #333;
-  font-size: 15px;
+  font-size: 13px;
 }
 .shopping-mall p {
   color: #333;
 }
-/* 배너 글자 */
+.bannner-logo {
+  width: 100%;
+  height: 29.4vw;
 
-.paly,
-.Shop {
-  font-size: 200px;
-  text-shadow: 5px 5px 0 rgb(130, 126, 126);
+  /* position: relative; */
+  /* padding: 50px; */
+  background-color: aqua;
 }
-
-.paly {
-  position: absolute;
-  top: 100px;
-  left: 200px;
-}
-
-.Shop {
-  position: absolute;
-  top: 300px;
-  left: 300px;
+.bannner-logo h1 {
+  /* background-color: aquamarine; */
+  font-size: 9vw;
+  text-align: left;
+  padding-left: 20px;
 }
 /* 쇼핑몰 바로가기 */
 .shopping-mall {
   position: absolute;
+  right: 20px;
   bottom: 50px;
-  left: 150px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
 }
 .shopping-mall button {
   padding: 5px 20px;
-  width: 60%;
-  line-height: 50px;
+  padding: 10px 0;
   border-radius: 60px;
-  margin-bottom: 50px;
 }
 .shopping-mall button a {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
 }
+
 /* 섹션1 */
 
 .section1 {
   margin-top: 100px;
   width: 100%;
+}
 
+.playshop-infor {
   display: flex;
 }
 /* concep */
@@ -377,42 +409,35 @@ li {
 
 .soprts-edition {
   background-color: yellow;
-  margin-top: 100px;
   line-height: 100px;
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 100px;
 }
-
+/* 슬라이더 */
 .slider {
   position: relative;
 }
-.product-name {
-  font-size: 100px;
-  margin: 100px 0;
+
+.section2 {
+  position: relative;
+  padding: 100px;
+}
+:root {
+  --swiper-theme-color: #515150;
 }
 
-.productprice {
-  font-size: 50px;
-  margin-bottom: 50px;
+.swiper-pagination-bullet {
+  margin-top: 100px;
+  width: 20px;
+  height: 20px;
 }
 
-.productbutton button {
-  background-color: #333;
-  width: 60%;
-  border-radius: 50px;
-  line-height: 70px;
-  color: #333;
-}
-
-.productbutton button a {
-  font-weight: bold;
-  color: #fff;
-  font-size: 30px;
-}
 /* 호버 */
-/* 호버공통 */
-
+/* 호버 배경 */
+.slider:hover .img-hover {
+  display: block;
+}
 .img-hover {
   position: absolute;
   top: 0;
@@ -422,18 +447,26 @@ li {
   background-color: rgba(0, 0, 0, 0.3);
   display: none;
 }
+/* 호버-상품이름, 가격 */
+.product-name {
+  font-size: 50px;
+  margin: 50px 0;
+}
+
+.productprice {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+/*  호버 색상*/
 
 .color {
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
-.slider:hover .img-hover {
-  display: block;
-}
-/*  */
 .color1:before {
   content: "";
   display: block;
@@ -455,22 +488,25 @@ li {
   height: 50px;
   background-color: rgb(32, 32, 32);
 }
+/* 상품 버튼*/
 
-.section2 {
-  margin-bottom: 100px;
-}
-:root {
-  --swiper-theme-color: #515150;
-}
-
-.swiper-pagination-bullet {
-  margin-top: 100px;
-  width: 20px;
-  height: 20px;
+.productbutton button {
+  background-color: #333;
+  width: 70%;
+  border-radius: 50px;
+  line-height: 40px;
+  color: #333;
 }
 
+.productbutton button a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+}
+/* section3=프로모션 */
 .section3 {
   display: flex;
+  margin-top: 100px;
   width: 100%;
 }
 
@@ -513,7 +549,7 @@ li {
 }
 
 .coupon {
-  width: 100px;
+  width: 120px;
   height: 100px;
   border-radius: 30px;
   color: violet;
@@ -528,6 +564,8 @@ li {
 }
 
 .coupon a {
+  letter-spacing: 5px;
+  line-height: 30px;
   font-weight: bold;
   font-size: 20px;
   color: #333;
@@ -569,20 +607,55 @@ li {
   font-weight: bolder;
   color: #333;
 }
-/* 하단 */
-.footer {
-  width: 100%;
-}
+/* 하단-1 */
+
 .footer1 {
+  padding: 0 auto;
   text-align: center;
+}
+
+.footer1-infor {
+  width: 50%;
+  margin: 20px auto;
   display: flex;
 }
+
 .footer-logo {
   width: 100px;
+  line-height: 50px;
   background-color: black;
   font-weight: bold;
   color: #fff;
 }
+.footer-shop-infor {
+  margin: 0 auto;
+  display: inline;
+}
+
+/* 하단-2 */
 .footer2 {
+  padding: 20px 0;
   background-color: #333;
+}
+
+.footer-menu {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+}
+
+.footer-menu li {
+  position: relative;
+  width: 3px;
+  width: calc(100% / 4);
+  border-right: 1px solid #fff;
+}
+
+.footer-menu li:nth-child(4) {
+  border-right: none;
+}
+
+.footer2-infor p {
+  margin-top: 10px;
+  color: #fff;
 }

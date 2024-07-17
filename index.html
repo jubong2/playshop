@@ -27,7 +27,7 @@
     <!-- 스와이프 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <!-- js 연결 -->
+
     <script src="js/jquery-1.12.3.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
@@ -70,32 +70,40 @@
     <div class="warp">
       <header class="header">
         <!-- 헤더상단 -->
-        <div class="header1">
-          <h1 class="logo">PLAY SHOP</h1>
-          <ul class="header-menu">
-            <li><a href="#">Introduce</a></li>
-            <li><a href="#">Online Shop</a></li>
-            <li><a href="#">Offinke Shop</a></li>
-          </ul>
-          <div class="header-button">
-            <a href="#"><button>Log-in</button></a>
-            <a href="#"><button>Join</button></a>
+        <header class="header1">
+          <div class="mobile-menu-bar">
+            <i class="fa-solid fa-bars"></i>
           </div>
-        </div>
+          <div class="logo">
+            <a href="#"><p>PLAY SHOP</p></a>
+          </div>
+          <div class="headre1-menu">
+            <ul class="category">
+              <li><a href="#" class="Introduce">Introduce</a></li>
+              <li><a href="#">On-line</a></li>
+              <li><a href="#">Off-line</a></li>
+            </ul>
+          </div>
+          <div class="header1-button">
+            <button class="log-in"><a href="#">LogIn</a></button>
+            <button class="log-out"><a href="#">LogOut</a></button>
+          </div>
+        </header>
+
         <!-- 헤더하단 -->
-        <div class="header2 container">
+        <div class="header2">
           <div class="notic">
             <h1 class="noticClick">Notic(Click)</h1>
-            <div class="sns">
-              <ul>
-                <li id="instagram">
-                  <a href="https://www.instagram.com/" target="_blank"><img src="images/insta.jpg" alt="" /></a>
-                </li>
-                <li id="">
-                  <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.jpg" alt="" /></a>
-                </li>
-              </ul>
-            </div>
+          </div>
+          <div class="sns">
+            <ul>
+              <li class="instagram">
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/insta.jpg" alt="d인스타" /></a>
+              </li>
+              <li class="facebook">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.jpg" alt="페이스북" /></a>
+              </li>
+            </ul>
           </div>
         </div>
       </header>
@@ -117,43 +125,47 @@
           </div>
         </div>
         <div class="text-warp">
-          <div class="text-right">
-            <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input type="text" class="serch-input" placeholder="검색하세요" /></div>
-            <h1 class="paly">PLAY</h1>
-            <h1 class="Shop">Shop</h1>
-            <div class="shopping-mall">
-              <button>
-                <a href="#"><p>온라인샵 바로가기 ▶</p></a>
-              </button>
-              <button>
-                <a href="#"><p>오프라인 바로가기 ▶</p></a>
-              </button>
-            </div>
+          <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input type="text" class="serch-input" placeholder="검색하세요" /></div>
+          <div class="bannner-logo">
+            <h1>
+              PLAY <br />
+              &nbsp;&nbsp;&nbsp;Shop
+            </h1>
+          </div>
+          <div class="shopping-mall">
+            <button>
+              <a href="#"><p>온라인샵 바로가기 ▶</p></a>
+            </button>
+            <button>
+              <a href="#"><p>오프라인 바로가기 ▶</p></a>
+            </button>
           </div>
         </div>
       </div>
       <!-- 브랜드소개 -->
       <section class="section1 container">
-        <div class="concept">
-          <h2>Modern & chic</h2>
-          <p><b>Play Shop</b>은 <span>“모던 시크”</span>를 중심으로 디자인을 한 모든 제품들으로 뷰티, 의류, 악세사리를 판매하는 여성 전문 복합 쇼핑몰입니다.</p>
-          <p>모든 제품들은 <span>“직접 디자인하여 제작”</span>되며, 자사 자체에 공장이 있어 우수한 품질을 자랑하며 지속적으로 사랑을 받고 있는 트랜디하고 고급진 브랜드입니다.</p>
-        </div>
-        <div class="concept2">
-          <div class="kind1 kind">
-            <h1>Clothing</h1>
-            <p>
-              매년 유행에 맞는 디자인으로 업데이트 되는
-              <span>의류 상품들은 직접 디자인하여 자체제작되어 자사 공장에서 만들어지는 의류 제품</span>으로 합리적인 가격으로 만나볼 수 있습니다.
-            </p>
+        <div class="playshop-infor">
+          <div class="concept">
+            <h2>Modern & chic</h2>
+            <p><b>Play Shop</b>은 <span>“모던 시크”</span>를 중심으로 디자인을 한 모든 제품들으로 뷰티, 의류, 악세사리를 판매하는 여성 전문 복합 쇼핑몰입니다.</p>
+            <p>모든 제품들은 <span>“직접 디자인하여 제작”</span>되며, 자사 자체에 공장이 있어 우수한 품질을 자랑하며 지속적으로 사랑을 받고 있는 트랜디하고 고급진 브랜드입니다.</p>
           </div>
-          <div class="kind2 kind">
-            <h1>Beauty</h1>
-            <p>제품 성분은 <span>피부에 자극이 없는 순한 성분</span>으로만 만들어진 제품으로 전 제품은 인증 과정을 철저하게 거친 후 제작됩니다.</p>
-          </div>
-          <div class="kind3 kind">
-            <h1>Accessory</h1>
-            <p>전 제품 <span>무알러러지 제품</span>으로 합리적인 가격으로 만나볼 수 있습니다.</p>
+          <div class="concept2">
+            <div class="kind1 kind">
+              <h1>Clothing</h1>
+              <p>
+                매년 유행에 맞는 디자인으로 업데이트 되는
+                <span>의류 상품들은 직접 디자인하여 자체제작되어 자사 공장에서 만들어지는 의류 제품</span>으로 합리적인 가격으로 만나볼 수 있습니다.
+              </p>
+            </div>
+            <div class="kind2 kind">
+              <h1>Beauty</h1>
+              <p>제품 성분은 <span>피부에 자극이 없는 순한 성분</span>으로만 만들어진 제품으로 전 제품은 인증 과정을 철저하게 거친 후 제작됩니다.</p>
+            </div>
+            <div class="kind3 kind">
+              <h1>Accessory</h1>
+              <p>전 제품 <span>무알러러지 제품</span>으로 합리적인 가격으로 만나볼 수 있습니다.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -223,8 +235,8 @@
               </div>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
+        <div class="swiper-pagination"></div>
       </section>
       <!-- 프로모션 -->
       <section class="section3">
@@ -252,7 +264,6 @@
           </div>
         </div>
         <div class="creatorsecrtion">
-          .
           <div class="creator">
             <h1>크리에이터 신청하기</h1>
             <input class="creator-infor" type="text" placeholder="NAME" />
@@ -270,15 +281,17 @@
 
       <footer class="footer">
         <div class="footer1 container">
-          <div class="footer-logo">PLAYSHOP</div>
-          <div class="footer-shop-infor">
-            <p>주소 : 대구광역시 중구 중앙대로 394, 제일빌딩 5F</p>
-            <p>상호명 : 플레이샵 사업자등록번호 : 508-0000-0000 대표자명 : 이주연</p>
+          <div class="footer1-infor">
+            <div class="footer-logo">PLAYSHOP</div>
+            <div class="footer-shop-infor">
+              <p>주소 : 대구광역시 중구 중앙대로 394, 제일빌딩 5F</p>
+              <p>상호명 : 플레이샵 사업자등록번호 : 508-0000-0000 대표자명 : 이주연</p>
+            </div>
           </div>
         </div>
         <div class="footer2">
-          <div class="footer-menu">
-            <ul>
+          <div class="footer2-infor container">
+            <ul class="footer-menu">
               <li><a href="#">고객센터</a></li>
               <li><a href="#">개인정보처리방침</a></li>
               <li><a href="#">사업자정보</a></li>

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1200px) {
+  /* 헤더 */
+  .logo {
+    width: 35% !important;
+  }
+
+  .mobile-menu-bar {
+    display: block !important;
+  }
+
+  .headre1-menu {
+    display: none;
+  }
+  .header-button {
+    width: 23% !important;
+    background-color: aqua;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header1-button {
+    display: none !important;
+  }
+  .logo {
+    width: 50% !important;
+  }
+  .header1 {
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header1-button {
+    display: none !important;
+  }
+  .logo a {
+    font-size: 25px !important;
+  }
+  .mobile-menu-bar {
+    font-size: 32px !important;
+  }
+}

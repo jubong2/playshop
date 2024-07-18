@@ -60,9 +60,9 @@
   .creatorsecrtion {
     height: 650px !important;
   }
-  .promotion,
+  /* .promotion,
   .creatorsecrtion {
-  }
+  } */
   .summerpromotion h1 {
     font-size: 40px !important;
     margin-bottom: 12px !important;
@@ -70,10 +70,10 @@
 }
 @media screen and (max-width: 400px) {
   .conceptNext {
-    top: 120px !important;
+    top: 100px !important;
   }
   .conceptPrev {
-    top: 120px !important;
+    top: 100px !important;
   }
   /* 스포츠 에디션 */
   .sports-edition {
@@ -110,21 +110,51 @@
   /* 섹션3 */
   .promotion,
   .creatorsecrtion {
-    height: 300px !important;
-    padding: 0 50px !important;
+    height: 250px !important;
+    padding: 10px 30px !important;
+  }
+
+  .promotion-warp {
+    justify-content: center;
+  }
+  .promotiontext {
+    width: 100% !important;
+    gap: 5px !important;
   }
   .coupon {
-    width: 50px !important;
-    height: 50px !important;
-    border-radius: 20px !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 7px !important;
   }
 
   .coupon a {
     letter-spacing: 1px !important;
-    line-height: 16px !important;
-    font-size: 11px !important;
+    line-height: 0 !important;
+    font-size: 10px !important;
+  }
+  .summerpromotion h1,
+  .creator h1 {
+    font-size: 23px !important;
+  }
+  /* .creatorsecrtion h1 {
+    margin-bottom: 25px;
+  } */
+  .creator-infor::placeholder {
+    font-size: 20px !important;
+  }
+  .creator-infor {
+    font-size: 20px !important;
   }
 
+  .summerpromotion h2 {
+    font-size: 4.8vw;
+  }
+  .summerpromotion h2 span {
+    font-size: 5.5vw !important;
+  }
+  .summerpromotion h3 {
+    font-size: 2vw !important;
+  }
   /* .promotion,
   .creatorsecrtion {
     height: 300px !important;

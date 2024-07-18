@@ -613,7 +613,6 @@ body {
 .section3 {
   display: flex;
   margin-top: 100px;
-  /* height: 750px; */
   width: 100%;
 }
 
@@ -663,6 +662,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  gap: 20px;
 }
 
 .coupon {

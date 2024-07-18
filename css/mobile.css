@@ -60,6 +60,13 @@
   .creatorsecrtion {
     height: 650px !important;
   }
+  .promotion,
+  .creatorsecrtion {
+  }
+  .summerpromotion h1 {
+    font-size: 40px !important;
+    margin-bottom: 12px !important;
+  }
 }
 @media screen and (max-width: 400px) {
   .conceptNext {
@@ -103,7 +110,8 @@
   /* 섹션3 */
   .promotion,
   .creatorsecrtion {
-    height: 400px !important;
+    height: 300px !important;
+    padding: 0 50px !important;
   }
   .coupon {
     width: 50px !important;
@@ -116,4 +124,13 @@
     line-height: 16px !important;
     font-size: 11px !important;
   }
+
+  /* .promotion,
+  .creatorsecrtion {
+    height: 300px !important;
+  }
+  .summerpromotion h1 {
+    font-size: 40px !important;
+    margin-bottom: 12px !important;
+  } */
 }

@@ -8,11 +8,9 @@
   .mobile-menu-bar {
     font-size: 32px !important;
   }
-
-  @media screen and (max-width: 400px) {
+  .mb-concept {
+    display: block !important;
   }
-
-  /* 배너- */
   .slider-warp {
     width: 100% !important;
   }
@@ -50,9 +48,13 @@
   .concept p,
   .concept2 p {
     font-size: 15px !important;
+    margin-bottom: 25px !important;
   }
   .concept2 {
     display: none !important;
   }
+}
 
+@media screen and (max-width: 400px) {
+  /* 배너- */
 }

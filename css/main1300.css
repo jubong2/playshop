@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@media screen and (max-width: 1300px) {
+  /* 헤더 */
+  .logo {
+    width: 35% !important;
+  }
+
+  .mobile-menu-bar {
+    display: block !important;
+  }
+
+  .headre1-menu {
+    display: none;
+  }
+  .header-button {
+    width: 23% !important;
+    background-color: aqua;
+  }
+  .search {
+    font-size: 10px;
+  }
+  /* 섹션 1 */
+
+  .section1 {
+    margin-top: 50px !important;
+  }
+  .concept h2 {
+    font-size: 28px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .concept b {
+    font-size: 20px !important;
+  }
+  .concept p {
+    font-size: 15px !important;
+  }
+  .kind {
+    margin-bottom: 15px !important;
+  }
+  .kind h1 {
+    font-size: 20px !important;
+  }
+
+  .kind p {
+    font-size: 15px !important;
+  }
+}

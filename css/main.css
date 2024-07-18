@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@import url("main768.css");
+@import url("main800.css");
 @import url("mobile.css");
-
+@import url("main1300.css");
 * {
   margin: 0;
   padding: 0;
@@ -217,7 +217,7 @@ li {
 /* sns */
 
 .sns {
-  width: 10%;
+  width: 6%;
   padding: auto;
 }
 .sns ul {
@@ -225,6 +225,7 @@ li {
   display: flex;
   gap: 10px;
   justify-content: center;
+  align-items: center;
 }
 
 .sns li {
@@ -306,6 +307,7 @@ li {
   font-size: 5vw;
   text-align: left;
   text-shadow: 2px 2px 2px #807f7f;
+  margin-bottom: 15px;
 }
 
 /* 쇼핑몰 바로가기 */
@@ -408,7 +410,6 @@ li {
 }
 /* 종류 */
 .concept2 {
-  display: flex;
   padding-left: 20px;
   margin: auto 0;
   width: 60%;
@@ -421,12 +422,11 @@ li {
 }
 
 .kind h1 {
-  width: 30%;
   text-shadow: 0 4px 4px #807f7f;
   font-size: 40px;
 }
 .kind p {
-  width: 70%;
+  margin: 10px;
   padding-left: 10px;
   font-size: 25px;
   text-shadow: 0 4px 4px #807f7f;
@@ -438,6 +438,7 @@ li {
 }
 /* 컨셉 모바일 */
 .mb-concept {
+  display: none;
   position: relative;
   width: 100%;
 }
@@ -454,11 +455,14 @@ li {
 .concept2-Swiper p {
   padding-top: 10px;
   width: 100%;
-  font-size: 12px;
 }
 .conceptNext {
   position: absolute;
   right: -30px;
+  font-size: 100px;
+}
+.conceptNext::after {
+  font-size: 20px;
 }
 
 .conceptPrev {
@@ -466,13 +470,36 @@ li {
   left: -30px;
 }
 
+.conceptPrev::after {
+  font-size: 20px;
+}
+.mb-kind {
+  margin-top: 25px;
+}
+
+.mb-kind h1 {
+  text-shadow: 0 4px 4px #807f7f;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.mb-kind p {
+  width: 100% !important;
+  font-size: 15px;
+  text-shadow: 0 4px 4px #807f7f;
+}
+
+.mb-kind span {
+  color: rgb(184, 61, 163);
+  border-bottom: 1px solid rgb(184, 61, 163);
+}
 /* 스포츠 에디션 */
 
 .sports-edition {
+  margin-top: 100px;
   width: 100%;
-  background-color: yellow;
   line-height: 100px;
-  font-size: 50px;
+  background-color: yellow;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 100px;
 }

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 800px) {
+  .header1-button {
+    display: none !important;
+  }
+  .logo {
+    width: 50% !important;
+  }
+  .logo a {
+    font-size: 25px !important;
+  }
+  .header1 {
+    justify-content: center !important;
+  }
+
+  .sports-edition {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    line-height: 50px !important;
+    font-size: 30px !important;
+  }
+}

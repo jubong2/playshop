@@ -25,6 +25,9 @@ window.onload = function () {
       el: ".section2 .swiper-pagination",
       clickable: true,
     },
+    breakpoints: {
+      
+    },
   });
 
   var swiper = new Swiper(".concept2-Swiper", {

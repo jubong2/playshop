@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1000px) {
+  .header1-button {
+    display: none !important;
+  }
+  .logo {
+    width: 50% !important;
+  }
+  .logo a {
+    font-size: 25px !important;
+  }
+  .header1 {
+    justify-content: center !important;
+  }
+  /* 스포츠 에디션 */
+  .sports-edition {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    line-height: 50px !important;
+    font-size: 30px !important;
+  }
+  .product-name,
+  .productprice {
+    font-size: 30px !important;
+  }
+
+  .color {
+    gap: 20px !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+  }
+  .color1:before {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .color2:before {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .color3:before {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .productbutton button a {
+    font-size: 12px !important;
+  }
+  /* 섹션3 프로모션 */
+  .section3 {
+    display: block !important;
+    /* height: none; */
+  }
+
+  .promotion,
+  .creatorsecrtion {
+    width: 100% !important;
+  }
+
+  .summerpromotion h1 {
+    font-size: 50px !important;
+    margin-bottom: 25px !important;
+  }
+  .coupon {
+    width: 80px;
+    height: 100px;
+  }
+}

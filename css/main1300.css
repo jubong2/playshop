@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   /* 헤더 */
   .logo {
     width: 35% !important;
@@ -25,7 +25,7 @@
     margin-top: 50px !important;
   }
   .concept h2 {
-    font-size: 28px !important;
+    font-size: 25px !important;
     margin-bottom: 25px !important;
   }
 
@@ -44,5 +44,13 @@
 
   .kind p {
     font-size: 15px !important;
+  }
+  /* 섹션3 */
+  .promotion,
+  .creatorsecrtion {
+    padding: 50px 50px !important;
+  }
+  .creator-infor::placeholder {
+    font-size: 30px !important;
   }
 }

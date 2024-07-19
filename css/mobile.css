@@ -1,73 +1,4 @@
 @charset "UTF-8";
-
-@media screen and (max-width: 800px) {
-  /* 헤더 */
-  .header1-button {
-    display: none !important;
-  }
-  .mobile-menu-bar {
-    font-size: 32px !important;
-  }
-  .mb-concept {
-    display: block !important;
-  }
-  .slider-warp {
-    width: 100% !important;
-  }
-  .mb-slide-text {
-    display: flex !important;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .swiper-slide img {
-    height: 93.4vw !important;
-  }
-  .text-warp {
-    display: none !important;
-  }
-
-  /*  섹션 1 */
-  .section1 {
-    margin-top: 50px !important;
-  }
-
-  .concept {
-    width: 100% !important;
-    border-right: none !important;
-    border-bottom: 1px solid #333 !important;
-  }
-
-  .concept h2 {
-    font-size: 25px !important;
-  }
-
-  .concept b {
-    font-size: 20px !important;
-  }
-  .concept p,
-  .concept2 p {
-    font-size: 15px !important;
-    margin-bottom: 25px !important;
-  }
-  .concept2 {
-    display: none !important;
-  }
-  .section3 {
-    margin-top: 50px !important;
-  }
-  .promotion,
-  .creatorsecrtion {
-    height: 650px !important;
-  }
-  /* .promotion,
-  .creatorsecrtion {
-  } */
-  .summerpromotion h1 {
-    font-size: 40px !important;
-    margin-bottom: 12px !important;
-  }
-}
 @media screen and (max-width: 400px) {
   .conceptNext {
     top: 100px !important;
@@ -108,10 +39,10 @@
     font-size: 12px !important;
   }
   /* 섹션3 */
+
   .promotion,
   .creatorsecrtion {
-    height: 250px !important;
-    padding: 10px 30px !important;
+    height: 350px !important;
   }
 
   .promotion-warp {
@@ -132,18 +63,12 @@
     line-height: 0 !important;
     font-size: 10px !important;
   }
-  .summerpromotion h1,
+
   .creator h1 {
-    font-size: 23px !important;
+    font-size: 21px !important;
   }
-  /* .creatorsecrtion h1 {
-    margin-bottom: 25px;
-  } */
-  .creator-infor::placeholder {
-    font-size: 20px !important;
-  }
-  .creator-infor {
-    font-size: 20px !important;
+  .summerpromotion h1 {
+    font-size: 30px !important;
   }
 
   .summerpromotion h2 {
@@ -155,12 +80,33 @@
   .summerpromotion h3 {
     font-size: 2vw !important;
   }
-  /* .promotion,
-  .creatorsecrtion {
-    height: 300px !important;
+  .creator-infor {
+    width: 80% !important;
+    height: 30px !important;
+    margin-bottom: 10px !important;
+    font-size: 15px !important;
   }
-  .summerpromotion h1 {
-    font-size: 40px !important;
-    margin-bottom: 12px !important;
-  } */
+  .creator-infor::placeholder {
+    font-size: 15px !important;
+  }
+  .creator button a {
+    font-size: 8px !important;
+  }
+  .creator button {
+    width: calc(100% / 2) !important;
+    line-height: 7px !important;
+  }
+  .footer1-infor {
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .footer-logo {
+    width: 50px !important;
+    line-height: 22px !important;
+    font-size: 8px !important;
+  }
+  .footer-shop-infor p{
+    font-size: 8px !important;
+  }
 }

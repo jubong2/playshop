@@ -50,7 +50,7 @@
   .creatorsecrtion {
     padding: 50px 50px !important;
   }
-  .creator-infor::placeholder {
+  /* .creator-infor::placeholder {
     font-size: 30px !important;
-  }
+  } */
 }
